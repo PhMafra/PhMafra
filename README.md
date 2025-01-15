@@ -1,6 +1,6 @@
 # 🤖 Phablo Mafra
 
-**`Desenvolvedor FullStack`**
+**`Desenvolvedor  Iniciante**
 
 Meu nome é Phablo Mafra, tenho 30 anos e sou de Santa Catarina. Concluí o ensino médio no colégio 3ª Dimensão. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UNIVILLE de Joinville. Sou curioso e apaixonado por tecnologia e gosto de aprender e me desenvolver sempre que possível sobre assuntos da área, tenho grande facilidade em aprender e normalmente me desenvolvo muito rápido em novas funções.
 Me considero amigável, proativo e acredito que o desenvolvimento de sistemas é um ambiente de infinitas possibilidades✨
