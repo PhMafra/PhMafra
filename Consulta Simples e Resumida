@@ -1,0 +1,15 @@
+Select H.cd_id as ID,
+H.dt_criacao as ID_DATA,
+C.nm_colaborador as Nome_Colaborador
+
+From Historico H
+Left Join Cliente C on C.cd_id = H.cd_id
+
+Where H.dt_criacao >= '2024'
+
+// Os nomes das colunas foram apelidados para melhor leitura 
+// A consulta considera que existam várias tabelas no banco de dados 
+// Tabela 1 -> Historico 
+// Tabela 2 -> Colaborador 
+// O Where denomina que o resultado trará apenas cadastros com data de criação com valor maior ou igual ao ano de 2024
+// O código representa uma consulta de SQL simples e resumida resultando em três colunas, uma de números de identificação, uma com a data de contratação e a última com nomes de funcionários com cadastro criado na empresa com data igual ou superior ao ano de 2024.
