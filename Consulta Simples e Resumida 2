@@ -1,0 +1,17 @@
+Select H.cd_id as ID,
+H.dt_criacao as ID_Data,
+C.dt_prazo as Prazo_de_Entrega,
+C.nm_cliente as Nome_Cliente,
+C.vl_pedido_cliente as Pedido_Cliente
+
+From Historico H
+Left Join Cliente C on C.cd_id = H.cd_id
+
+Where H.uf = 'SC' and C.vl_pedido_cliente > 0 and Year(H.dt_criacao) = '2024'
+
+-- -- Os nomes das colunas foram apelidados para melhor leitura 
+-- A consulta considera que existam várias tabelas no banco de dados 
+-- Tabela 1 -> Historico 
+-- Tabela 2 -> Cliente
+-- O Where denomina que o resultado trará apenas vendas de Santa Catarina com com valor de compra maior que 0(Zero) e dentro do ano de 2024
+-- O código representa uma consulta de SQL simples e resumida resultando em 5(Cinco) colunas, uma de número de identificação, uma com a data de criação, uma com o prazo previsto de entrega, uma coluna com o nome do cliente e uma última com o valor do pedido
